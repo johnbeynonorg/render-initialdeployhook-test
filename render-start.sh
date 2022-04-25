@@ -2,6 +2,6 @@
 # exit on error
 set -o errexit
 
-echo "render-start.sh"
+echo "RUNNING: render-start.sh"
 
 bundle exec ruby app.rb
