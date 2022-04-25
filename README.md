@@ -1,1 +1,1 @@
-Skeleton Ruby App
+Initial deploy hook test
