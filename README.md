@@ -1,1 +1,1 @@
-Skeleton Ruby App
+Render-deployhook example
