@@ -1,6 +1,10 @@
 # myapp.rb
 require 'sinatra'
 
-get '/' do
-  puts "Hello"
+class Application < Sinatra::Base
+
+  get '/' do
+    puts "Hello"
+  end
+
 end
