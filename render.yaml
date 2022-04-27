@@ -16,3 +16,6 @@ services:
     envVars:
       - key: FOO2
         value: BAH
+      - key: FOO3
+        value: BAH
+
