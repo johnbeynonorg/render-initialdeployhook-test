@@ -5,3 +5,7 @@ services:
     env: ruby
     buildCommand: ./render-build.sh
     startCommand: ./render-start.sh
+    envVars:
+      - key: FOO
+        value: BAH
+
