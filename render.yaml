@@ -12,7 +12,7 @@ services:
     name: sample-ruby-app2
     env: ruby
     buildCommand: ./render-build.sh
-    startCommand: bundle exec puma2 config.ru -C puma.rb
+    startCommand: bundle exec puma config.ru -C puma.rb
     envVars:
       - key: FOO2
         value: BAH
