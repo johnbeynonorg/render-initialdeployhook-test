@@ -4,4 +4,4 @@ set -o errexit
 
 echo "render-start.sh"
 
-bundle exec puma2 config.ru -C puma.rb
+bundle exec puma config.ru -C puma.rb

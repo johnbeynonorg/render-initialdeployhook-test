@@ -6,6 +6,6 @@ services:
     buildCommand: ./render-build.sh
     startCommand: ./render-start.sh
     envVars:
-      - key: FOO
+      - key: FOO2
         value: BAH
 
